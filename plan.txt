@@ -1,0 +1,67 @@
+// ROCK PAPER SCISSORS GAME PLAN
+
+// COMPONENTS:
+Three buttons (ROCK: PAPER: SCISSORS):
+A Reset Button (It resets the user score):
+A Button that hows the user their scores 
+
+
+HOW IT WORKS:
+------------
+
+ROCK BEATS SCISSORS
+PAPER BEATS ROCK
+SCISSORS BEATS PAPER
+
+
+Algorithm:
+----------
+if user value === ROCK && computer value === 'SCISSORS'
+show a popup that saying (userscore: 1 ; computerScore: 0)
+
+if uservalue === PAPER && computer value === 'ROCK';
+same thing
+
+if uservalue === SCISSORS && computerScore === 'PAPER'
+same thing
+
+if uservalue === Reset
+both computer and userscore === 0
+
+if uservalue === show score
+alert both user value and computer value
+
+
+
+// We are making use of the random value
+
+Math.random selects a  random value from 0 to 1
+0 - 1/3 === ROCK
+1/3 - 2/3 === PAPER
+2/3 - 3/3 === SCISSORS
+
+
+** UPDATE **
+The scores would now be showed
+parameters would node be shown
+
+
+userscore = 0
+tie
+comupter score = 0
+
+scores would be added based on who wins
+
+if the reset button is clicked
+=> The container containing the scores and tie would display Scores reset 
+
+
+** TIE MULTIPLIER **
+if the user gets more than one tie the html file displays tie X the number of ties gotten consecutively
+
+
+** SUGGESTION FROM USER  **
+Add music
+
+A background music would be added then sounds would be played when the user clicks a button
+
